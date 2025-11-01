@@ -64,5 +64,5 @@ pip install -r requirements.txt
 ```
 5️⃣ Lancer l’application
 ```bash
-streamlit run Projet.py
+streamlit run app.py
 ```
