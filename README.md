@@ -44,14 +44,25 @@ L’application a été réalisée avec **Streamlit**, **Plotly**, **yfinance** 
 ```bash
 git clone https://github.com/<ton-utilisateur>/<nom-du-repo>.git
 cd <nom-du-repo>
+```
 ### 2️⃣ Créer un environnement virtuel
-python -m venv venv
+```bash
+python -m venv ven
+```
 ### 3️⃣ Activer l’environnement
 Sous Windows :
+```bash
 venv\Scripts\activate
+```
 Sous macOS / Linux :
+```bash
 source venv/bin/activate
+```
 ### 4️⃣ Installer les dépendances
+```bash
 pip install -r requirements.txt
-### 5️⃣ Lancer l’application
+```
+5️⃣ Lancer l’application
+```bash
 streamlit run Projet.py
+```
